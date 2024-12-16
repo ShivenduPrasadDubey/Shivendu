@@ -34,7 +34,7 @@ const WorkExperience = () => {
         </div>
 
         {/* Right Section: Description */}
-        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[80%] md:w-2/3 pl-0 md:pl-8">
+        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[85%] md:w-2/3 pl-0 md:pl-8">
           <p className="mb-4 text-sm md:text-base">
             Developed a fully functional MERN stack e-commerce website for Insight Diagnostics, allowing seamless online sales of diagnostic kits, enhancing the company's online presence and customer engagement.
           </p>
@@ -68,7 +68,7 @@ const WorkExperience = () => {
         </div>
 
         {/* Right Section: Description */}
-        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[80%] md:w-2/3 pl-0 md:pl-8">
+        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[85%] md:w-2/3 pl-0 md:pl-8">
           <p className="mb-4 text-sm md:text-base">
             Developing a machine learning project to automatically add punctuation to unpunctuated sentences, improving readability and text structure. The project focuses on making text more understandable, with applications in content generation, language learning, and automated communication tools.
           </p>
