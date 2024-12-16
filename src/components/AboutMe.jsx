@@ -15,13 +15,13 @@ const AboutMe = () => {
       }`}
     >
       <div className='md:ml-0'>
-        <div className="flex items-center">
+        <div className="flex items-center w-[90%]">
           <h1 className="text-[#ccd6f6] flex font-bold items-center text-xl md:text-2xl mr-4">
             <span className="text-[#64ffda] mr-2 text-base md:text-xl">01. </span>Background
           </h1>
           <div className="md:w-[300px] w-[200px] h-[0.5px] bg-[#ccd6f6]"></div>
         </div>
-        <p className="text-[#8892b0] md:w-[500px] mt-8 text-sm w-[390px] md:text-base">
+        <p className="text-[#8892b0] md:w-[500px] mt-8 text-sm w-[90%] md:text-base">
           Hello! I am Shivendu, a 4th-year student at SRM Chennai, pursuing a degree in Computer Science and Engineering. Fueled by a deep enthusiasm for technology and innovation, I have cultivated a strong expertise in web development and software engineering.
           <br />
           <br />

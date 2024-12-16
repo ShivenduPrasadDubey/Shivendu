@@ -11,7 +11,7 @@ const Info = () => {
   const delayIncrement = 200; // Increment for each element
 
   return (
-    <div className="md:ml-[18%] ml-6 md:mt-10 mt-5">
+    <div className="md:ml-[18%] px-6 md:mt-10 mt-5">
       <p
         className="text-[#64ffda] md:mb-8 mb-5 ml-1 opacity-0 animate-fade-slide-in translate-y-5"
         style={{
@@ -50,7 +50,7 @@ const Info = () => {
           color: '#8892b0',
         }}
       >
-        <p className="text-[#8892b0] text-sm md:text-base md:w-[42%] w-96">
+        <p className="text-[#8892b0] text-sm md:text-base md:w-[52%] w-[90%]">
           I am a software engineer specializing in building and designing websites for everyone to
           use and enjoy. I am always looking for ideas that will guide me to develop a great
           website with exceptional digital experience.

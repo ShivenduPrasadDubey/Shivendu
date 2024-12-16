@@ -10,7 +10,7 @@ const WorkExperience = () => {
       isVisible ? 'opacity-100' : 'opacity-0'
     }`}>
       {/* Section Header */}
-      <div className="w-full flex items-center justify-center md:ml-0 ml-16">
+      <div className="w-[90%] flex items-center justify-center md:ml-0 ml-4">
         <div className="w-full max-w-4xl flex items-center">
           <h1 className="text-[#ccd6f6] flex items-center text-xl md:text-2xl font-bold mr-4">
             <span className="text-[#64ffda] text-base md:text-xl mr-2">03. </span>Experience
@@ -34,14 +34,14 @@ const WorkExperience = () => {
         </div>
 
         {/* Right Section: Description */}
-        <div className="flex flex-col justify-center md:ml-0 ml-4 text-[#8892b0] w-[380px] md:w-2/3 pl-0 md:pl-8">
-          <p className="mb-4">
+        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[90%] md:w-2/3 pl-0 md:pl-8">
+          <p className="mb-4 text-sm md:text-base">
             Developed a fully functional MERN stack e-commerce website for Insight Diagnostics, allowing seamless online sales of diagnostic kits, enhancing the company's online presence and customer engagement.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-sm md:text-base">
             Gained extensive hands-on industrial experience working with modern frontend technologies like React, TailwindCSS, and Redux, while also utilizing NodeJS, ExpressJS, MongoDB, and Auth0 for building a secure and scalable backend.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-sm md:text-base">
             Played a key role in transforming offline business operations into a dynamic, efficient online platform, significantly improving client accessibility, expanding market reach, and driving business growth.
           </p>
         </div>
@@ -68,14 +68,14 @@ const WorkExperience = () => {
         </div>
 
         {/* Right Section: Description */}
-        <div className="flex flex-col justify-center md:ml-0 ml-4 text-[#8892b0] w-[380px] md:w-2/3 pl-0 md:pl-8">
-          <p className="mb-4">
+        <div className="flex flex-col justify-center md:ml-0 ml-8 text-[#8892b0] w-[90%] md:w-2/3 pl-0 md:pl-8">
+          <p className="mb-4 text-sm md:text-base">
             Developing a machine learning project to automatically add punctuation to unpunctuated sentences, improving readability and text structure. The project focuses on making text more understandable, with applications in content generation, language learning, and automated communication tools.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-sm md:text-base">
             The project uses machine learning libraries such as TensorFlow and Transformers to analyze sentence context and accurately predict punctuation marks. These tools help create grammatically correct text from unpunctuated input.
           </p>
-          <p className="mb-4">
+          <p className="mb-4 text-sm md:text-base">
             It also integrates a tokenizer to efficiently handle longer text by breaking it down into smaller units, ensuring accurate punctuation placement even for complex or lengthy sentences.
           </p>
         </div>

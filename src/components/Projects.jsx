@@ -49,25 +49,19 @@ const Projects = () => {
   const [activeProject, setActiveProject] = useState(projectData[0]);
 
   return (
-    <div ref={ref} id="projects" className={`relative flex flex-col items-center justify-center min-h-screen md:ml-0 ml-8 mt-32 transition-opacity duration-1000 ${
+    <div ref={ref} id="projects" className={`relative flex flex-col items-center justify-center min-h-screen md:ml-0 ml-2 mt-32 transition-opacity duration-1000 ${
       isVisible ? 'opacity-100' : 'opacity-0'
     }`}>
-      <div className="w-full flex items-center justify-center">
+      <div className="md:w-full flex items-center justify-center w-[90%]">
         <div className="w-full max-w-4xl flex items-center">
           <h1 className="text-[#ccd6f6] flex items-center text-xl md:text-2xl font-bold mr-4">
             <span className="text-[#64ffda] text-base md:text-xl mr-2">02. </span>Projects
           </h1>
-          <div className="md:w-[630px] w-[230px] h-[0.5px] bg-[#ccd6f6]"></div>
+          <div className="md:w-[630px] w-[90%] h-[0.5px] bg-[#ccd6f6]"></div>
         </div>
       </div>
-      {/* <div className="left-0 flex items-center">
-          <h1 className="text-[#ccd6f6] flex font-bold items-center text-xl md:text-2xl mr-4">
-            <span className="text-[#64ffda] mr-2 text-base md:text-xl">02. </span>My Projects
-          </h1>
-          <div className="md:w-[300px] w-[200px] h-[0.5px] bg-[#ccd6f6]"></div>
-        </div> */}
 
-      <div className="md:flex gap-12 w-full max-w-4xl mt-12">
+      <div className="md:flex gap-12 w-[90%] max-w-4xl mt-12">
         <div className="flex md:flex-col flex-shrink-0">
           {projectData.map((project) => (
             <button
@@ -86,7 +80,7 @@ const Projects = () => {
         <div className="text-[#ccd6f6] flex-1">
           <h1 className="text-xl md:mt-0 mt-5 md:text-2xl">{activeProject.title}</h1>
           <p className="md:mt-2 mt-5 text-sm text-[#8892b0]">{activeProject.duration}</p>
-          <ul className="md:mt-4 mt-8 w-[370px] md:w-full list-disc ml-5">
+          <ul className="md:mt-4 mt-8 w-[90%] md:w-full list-disc ml-5">
             {activeProject.content.map((item, index) => (
               <li key={index} className="mb-2 text-[#8892b0] text-sm md:text-base">
                 {item}
